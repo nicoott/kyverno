@@ -6,7 +6,7 @@ setup_namespace:
 	./setup_namespace.sh
 create_deployment_file:
 	chmod +x ./create_simple_nginx_deployment_file.sh
-        ./create_simple_nginx_deployment_file.sh
+	./create_simple_nginx_deployment_file.sh
 apply:
 	kubectl apply -f nginx-deployment.yaml
 delete:
